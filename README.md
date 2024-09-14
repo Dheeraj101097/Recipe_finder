@@ -1,2 +1,2 @@
 # Recipe_finder
-Recipe finder which inputs dish name and shows the respective chosen dish details.
+Recipe finder which inputs dish name and displays the respective chosen dish details.

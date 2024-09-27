@@ -12,7 +12,7 @@ let sky = document.querySelector(".sky")
 let windspeed = document.querySelector(".windspeed")
 
 async function checkweather(city) {
-    let response = await fetch(url + city + `&appid=${apikey}`);
+    let response = await fetch(url + city + `&APPID=${apikey}`);
 
     if (response.status == 404){
         document.querySelector(".error").style.display="block"
